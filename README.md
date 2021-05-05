@@ -1,5 +1,8 @@
 # test_targets_future.callr
-Test parallelised targets over multiple processes on a local machine
+Test parallelised targets over multiple processes on a local machine.
+
+## How to run the test
+Fork this repo dan excecute `run.R` on your R console.
 
 ```
 > Sys.info()
