@@ -4,6 +4,7 @@ Test parallelised targets over multiple processes on a local machine.
 ## How to run the test
 Fork this repo dan excecute `run.R` on your R console.
 
+### Test #1: KatanaOnDemand 6 Cores CPU
 ```
 > Sys.info()
                              sysname 
@@ -29,7 +30,7 @@ Fork this repo dan excecute `run.R` on your R console.
 [1] 48
 ```
 
-
+__Benchmark result #1__
 ```
 > print(bench_results)
              test replications elapsed relative user.self sys.self
