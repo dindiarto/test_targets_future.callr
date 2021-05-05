@@ -1,6 +1,10 @@
 # test_targets_future.callr
 Test parallelised targets over multiple processes on a local machine.
 
+__Test workflow__
+![image](https://user-images.githubusercontent.com/14798903/117104313-4309b300-adbf-11eb-909c-649f47d51592.png)
+
+
 ## How to run the test
 Fork this repo dan excecute `run.R` on your R console.
 
