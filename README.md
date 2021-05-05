@@ -1,6 +1,26 @@
 # test_targets_future.callr
 Test parallelised targets over multiple processes on a local machine
 
+```
+> Sys.info()
+                             sysname 
+                             "Linux" 
+                             release 
+       "3.10.0-1160.24.1.el7.x86_64" 
+                             version 
+"#1 SMP Thu Apr 8 19:51:47 UTC 2021" 
+                            nodename 
+                              "k120" 
+                             machine 
+                            "x86_64" 
+                               login 
+                           "unknown" 
+                                user 
+                          "z5189999" 
+                      effective_user 
+                          "z5189999" 
+```
+
 
 ```
 > print(bench_results)
