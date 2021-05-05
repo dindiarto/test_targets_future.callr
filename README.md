@@ -44,3 +44,14 @@ __Benchmark result #1__
 7 future_callr_4L            1  46.114  23057.0     0.204    0.100 
 1      sequential            1 121.250  60625.0     0.347    0.126
 ```
+
+__Benchmark result #2__
+```
+> print(bench_results)
+ test replications elapsed relative user.self sys.self
+3  future_callr_2L            2  93.354  46677.0     0.138    0.015
+5  future_callr_3L            2  55.219  27609.5     0.084    0.020
+7  future_callr_4L            2  49.509  24754.5     0.091    0.013
+9  future_callr_6L            2  49.720  24860.0     0.081    0.018
+1       sequential            2 122.188  61094.0     0.165    0.019
+```
