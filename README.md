@@ -19,6 +19,11 @@ Test parallelised targets over multiple processes on a local machine
                           "z5189999" 
                       effective_user 
                           "z5189999" 
+                          
+> parallel::detectCores(logical = F)
+[1] 48
+> parallel::detectCores(logical = T)
+[1] 48
 ```
 
 
